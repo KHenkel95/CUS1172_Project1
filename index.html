@@ -3,10 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>CUS1172 Project 1</title>
+    <style>
+        body{
+            background-color:#404040;
+        }
+    </style>
+    <link rel="stylesheet" href="mycss_web.css">
 </head>
 <body>
 <table>
-    <tr>
+    <tr id="menu">
         <th><a href="#basicInfo">Basic Info</a></th>
         <th><a href="#education">Education</a></th>
         <th><a href="#employmentHistory">Employment</a></th>
@@ -18,36 +24,43 @@
     </tr>
 </table>
 <div>
-    <a name="basicInfo"><h1>Basic Info:</h1></a>
-    <ul>
+    <a style="color:deepskyblue; font-family: Arial " name="basicInfo" ><h1>Basic Info:</h1></a>
+    <ul class="content-box">
         <li>Name: Ken Henkel</li>
         <li>Major: Computer Science</li>
     </ul>
-    <img src="pic_2.jpg" width="15%" align="middle"/>
+</div>
+
+<div>
+    <img id="profile-pic" src="pic_2.jpg" />
 </div>
 
 <div>
     <a name="education"><h2>Education:</h2></a>
-    <ul>
-        <img src="https://www.stjohns.edu/themes/sju_theme/assets/logos/logo-footer.svg" width="15%" align="middle"/>
-        <li>Bachelor of Science, Computer Science, <span style="color:red">St. John's University</span> May 2020</li>
-        <li>Associate of Art, Liberal Arts, <span style="color:red">St. John's University</span> May 2016</li>
+    <ul class="content-box">
+
+        <li>Bachelor of Science, Computer Science, <span>St. John's University</span> May 2020</li>
+        <li>Associate of Art, Liberal Arts, <span>St. John's University</span> May 2016</li>
         <p>I went to St. John's after graduating High School and graduated with an Associates in 2016. I returned in Spring 2018 to pursue my Bachelors of Science in Computer Science, and plan to graduate this May.</p>
     </ul>
 </div>
 
 <div>
+    <img id="school-pic" src="https://www.stjohns.edu/themes/sju_theme/assets/logos/logo-footer.svg"/>
+</div>
+
+<div>
     <a name="employmentHistory"><h2>Employment History:</h2></a>
-    <ul>
+    <ul class="content-box">
         <li>New York City District Council of Carpenters Local Union #2790, Carpenters Helper</li>
         <li>Chemtex USA, Sales</li>
     </ul>
 </div>
 
-<div>
+<div >
     <a name="programmingSkills"><h2>Programming Skills:</h2></a>
-    <h4>Languages & Years of experience:</h4>
-    <ul>
+    <h4 id="h4">Languages & Years of experience:</h4>
+    <ul class="content-box">
         <li>Java: 4</li>
         <li>C/C++: 1</li>
         <li>Python: 2</li>
@@ -60,7 +73,7 @@
 
 <div>
     <a name="interests"><h2>Interests:</h2></a>
-    <ul>
+    <ul class="content-box">
         <li>Computers & Electronics</li>
         <li>Retro Video Games</li>
         <li>Surf Fishing & Natural Preservation</li>
@@ -69,7 +82,7 @@
 
 <div>
     <a name="favoriteMedia"><h2>Favorite Media:</h2></a>
-    <ul>
+    <ul class="content-box">
         <li>Favorite Song: Terrapin Station</li>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/9SDpSpntZHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
         <li>Favorite Film:</li>
@@ -81,7 +94,7 @@
 
 <div>
     <a name="favoriteWebsite"><h2>Favorite Websites:</h2></a>
-    <ul>
+    <ul class="content-box">
         <li><a href="https://hackaday.com/" target="_blank"><b>Hackaday:</b></a> A technology website where people post their projects of "hacks", meaning creative inventions or to unlock potentials of existing technologies</li>
         <li><a href="https://slashdot.org/" target="_blank"><b>Slashdot:</b></a> A technology news aggregate</li>
         <li><a href="https://thedailywtf.com/" target="_blank"><b>The Daily WTF:</b></a> Stories of bad code found in the wild.</li>
@@ -91,10 +104,25 @@
 
 <div>
     <a name="courseProjects"><h2>My Projects in this course:</h2></a>
-    <ul>
+    <ul class="content-box">
         <li>Project 1: Creating this website</li>
     </ul>
 </div>
-
+<h1 style="color:deepskyblue; left: 0%; font-family: Arial">Contact:</h1>
+<form method="POST">
+    <div>
+        <input type="text" placeholder="Type your email" name="username_field">
+        <br>
+        <input type="text" placeholder="Type your first name" name="firstname_field">
+        <br>
+        <input type="text" placeholder="Type your last name" name="lastname_field">
+    </div>
+    <div>
+        <textarea name="message" placeholder="Type your message" rows="10" cols="30"></textarea>
+    </div>
+    <div>
+        <input type="submit" value="submit">
+    </div>
+</form>
 </body>
 </html>

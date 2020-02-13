@@ -57,7 +57,7 @@ span{
     left: 32%;
     top: 32px;
     color: white;
-    padding: 12px;
+    padding: 25px;
     border: 1px;
     width: 500px;
     text-align: left;
@@ -75,11 +75,11 @@ span{
     left: 75px;
     width: 8%;
     height: 25%;
-    margin-left: 250px;
+    margin-left: 100px;
 }
 #school-pic{
     top: 350px;
-    margin-left: 250px;
+    margin-left: 135px;
     width: 15%;
 }
 #menu{

@@ -66,7 +66,7 @@ span{
 #h4{
     color: gold;
     text-align: left;
-    top: 708px;
+    top: 565px;
     padding: 10px;
     position: absolute;
     left: 39%;
@@ -87,4 +87,8 @@ span{
     position: absolute;
     left: 25%;
     top: 5%
+}
+.progress{
+    margin-left: auto;
+    margin-right: auto;
 }

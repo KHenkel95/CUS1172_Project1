@@ -51,7 +51,7 @@ table{
 span{
     color: red;
 }
-.content-box{
+.content-bx{
     position: relative;
     margin: 1px;
     left: 32%;
@@ -66,23 +66,25 @@ span{
 #h4{
     color: gold;
     text-align: left;
+    top: 708px;
     padding: 10px;
     position: absolute;
-    left: 41%;
+    left: 39%;
 }
 #profile-pic{
-    top: 100px;
-    left: 75px;
-    width: 8%;
-    height: 25%;
+    top: 120px;
+    left: 10px;
+    width: 12%;
+    height: 35%;
     margin-left: 100px;
 }
 #school-pic{
-    top: 350px;
-    margin-left: 135px;
-    width: 15%;
+    top: 400px;
+    margin-left: 115px;
+    width: 10%;
 }
 #menu{
     position: absolute;
     left: 25%;
+    top: 5%
 }
